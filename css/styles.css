@@ -1,0 +1,209 @@
+body {
+    box-sizing: border-box; /* tell the browser to account for any border and padding in the values you specify for an element's width and height */
+    margin: 0px; /* remove the default margin that some browsers add */
+    color: rgba(29, 29, 29, 0.7);
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1em;
+  }
+  .pixar {
+    color: white;
+    font-family: brandon-grotesque;
+    text-transform: uppercase;
+    letter-spacing: 0.29em;
+  }
+
+  .indent {
+    margin-left: 20px;
+  }
+
+  ul, ol {
+    list-style: none;
+  }
+
+  li {
+    text-transform: uppercase;
+    color: rgb(29, 29, 29);
+  }
+
+  a, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(196, 196, 196);
+  }
+
+  .flex-enabled {
+    display: flex;
+  }
+
+  nav ul li {
+    margin-left: 1em;
+    margin-right: 1.4em;
+    white-space: nowrap;
+  }
+  nav {
+    margin-top: 31px;
+    margin-bottom: 31px;
+  }
+  .flex-right {
+    flex-direction: row;
+    flex:1;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+  .flex-center {
+    align-items: center;
+    justify-content: center;
+  }
+
+.headline {
+  font-weight: 900;
+  font-size: 51px;
+  white-space: nowrap;
+}
+.floating {
+  position: absolute;
+}
+.feature-image {
+  width: 100%;
+}
+
+/* ********************************************************************************************* */
+/* copy/paste code below to make color transitions ease in and out the same on various browsers */
+/* and to also use the various weights of the "brandon-grotesque" font that Pixar uses */
+/* ********************************************************************************************* */
+
+a {
+    -webkit-transition: color 170ms ease-in-out,
+    background-color 170ms ease-in-out;
+    -moz-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+    -ms-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+    -o-transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+    transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+}
+    
+    @font-face {
+    font-family: brandon-grotesque;
+    src: url(https://use.typekit.net/af/099730/0000000000000000000132e6/27/l?subset_id=2&fvd=i9&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/099730/0000000000000000000132e6/27/d?subset_id=2&fvd=i9&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/099730/0000000000000000000132e6/27/a?subset_id=2&fvd=i9&v=3)
+    format("opentype");
+    font-weight: 900;
+    font-style: italic;
+    }
+    @font-face {
+    font-family: brandon-grotesque;
+    src: url(https://use.typekit.net/af/1da05b/0000000000000000000132df/27/l?subset_id=2&fvd=n4&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/1da05b/0000000000000000000132df/27/d?subset_id=2&fvd=n4&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/1da05b/0000000000000000000132df/27/a?subset_id=2&fvd=n4&v=3)
+    format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: brandon-grotesque;
+    src: url(https://use.typekit.net/af/d8f71f/0000000000000000000132e1/27/l?subset_id=2&fvd=n5&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/d8f71f/0000000000000000000132e1/27/d?subset_id=2&fvd=n5&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/d8f71f/0000000000000000000132e1/27/a?subset_id=2&fvd=n5&v=3)
+    format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: brandon-grotesque;
+    src: url(https://use.typekit.net/af/8f4e31/0000000000000000000132e3/27/l?subset_id=2&fvd=n7&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/8f4e31/0000000000000000000132e3/27/d?subset_id=2&fvd=n7&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/8f4e31/0000000000000000000132e3/27/a?subset_id=2&fvd=n7&v=3)
+    format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: brandon-grotesque;
+    src: url(https://use.typekit.net/af/031bc7/0000000000000000000132e5/27/l?subset_id=2&fvd=n9&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/031bc7/0000000000000000000132e5/27/d?subset_id=2&fvd=n9&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/031bc7/0000000000000000000132e5/27/a?subset_id=2&fvd=n9&v=3)
+    format("opentype");
+    font-weight: 900;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: brandon-grotesque;
+    src: url(https://use.typekit.net/af/32d3ee/0000000000000000000132e0/27/l?subset_id=2&fvd=i4&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/32d3ee/0000000000000000000132e0/27/d?subset_id=2&fvd=i4&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/32d3ee/0000000000000000000132e0/27/a?subset_id=2&fvd=i4&v=3)
+    format("opentype");
+    font-weight: 400;
+    font-style: italic;
+    }
+    @font-face {
+    font-family: brandon-grotesque;
+    src: url(https://use.typekit.net/af/383ab4/0000000000000000000132e4/27/l?subset_id=2&fvd=i7&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/383ab4/0000000000000000000132e4/27/d?subset_id=2&fvd=i7&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/383ab4/0000000000000000000132e4/27/a?subset_id=2&fvd=i7&v=3)
+    format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    }
+    @font-face {
+    font-family: futura-pt;
+    src: url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3)
+    format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: futura-pt;
+    src: url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?subset_id=2&fvd=n7&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?subset_id=2&fvd=n7&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?subset_id=2&fvd=n7&v=3)
+    format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: futura-pt;
+    src: url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/l?subset_id=2&fvd=i4&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/d?subset_id=2&fvd=i4&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/a?subset_id=2&fvd=i4&v=3)
+    format("opentype");
+    font-weight: 400;
+    font-style: italic;
+    }
+    @font-face {
+    font-family: futura-pt;
+    src: url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/l?subset_id=2&fvd=i7&v=3)
+    format("woff2"),
+    url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/d?subset_id=2&fvd=i7&v=3)
+    format("woff"),
+    url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/a?subset_id=2&fvd=i7&v=3)
+    format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    }
